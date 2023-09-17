@@ -57,10 +57,17 @@
 }
 
 @media (max-width: 600px) {
+  .header-nav-menu {
+    display: grid;
+    width: 100%;
+    justify-content: end;
+  }
   .header-menu {
     gap: 12px;
   }
   .header-menu a {
+    align-self: end;
+
     padding: 8px 12px;
     font-size: 14px;
   }
